@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    color: rgb(200, 192, 192);
+}
+body{
+    background-color: black;
+}
