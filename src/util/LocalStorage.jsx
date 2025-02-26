@@ -6,7 +6,7 @@ const Employees=[
     "email": "e1@e.com",
     "password": "123",
     "taskCounts": {
-      "active": 2,
+      "active": 4,
       "newTask": 1,
       "completed": 0,
       "failed": 0
@@ -31,16 +31,36 @@ const Employees=[
         "newTask": true,
         "completed": false,
         "failed": false
+      },
+      {
+        "taskTitle": "Review Sales Targets",
+        "taskDescription": "Assess and adjust the quarterly sales targets.",
+        "taskDate": "2025-03-01",
+        "category": "Strategy",
+        "active": true,
+        "newTask": false,
+        "completed": false,
+        "failed": false
+      },
+      {
+        "taskTitle": "Schedule Team Meeting",
+        "taskDescription": "Plan the weekly sales team meeting.",
+        "taskDate": "2025-03-02",
+        "category": "Management",
+        "active": true,
+        "newTask": false,
+        "completed": false,
+        "failed": false
       }
     ]
   },
   {
     "id": 2,
     "firstName": "Priya",
-    "email": "employee2@example.com",
+    "email": "e2@e.com",
     "password": "123",
     "taskCounts": {
-      "active": 1,
+      "active": 4,
       "newTask": 1,
       "completed": 1,
       "failed": 0
@@ -65,17 +85,37 @@ const Employees=[
         "newTask": false,
         "completed": true,
         "failed": false
+      },
+      {
+        "taskTitle": "Draft Client Proposal",
+        "taskDescription": "Prepare a proposal for a new potential client.",
+        "taskDate": "2025-03-02",
+        "category": "Sales",
+        "active": true,
+        "newTask": false,
+        "completed": false,
+        "failed": false
+      },
+      {
+        "taskTitle": "Review Marketing Strategy",
+        "taskDescription": "Evaluate current marketing strategies and suggest improvements.",
+        "taskDate": "2025-03-03",
+        "category": "Marketing",
+        "active": true,
+        "newTask": false,
+        "completed": false,
+        "failed": false
       }
     ]
   },
   {
     "id": 3,
     "firstName": "Rahul",
-    "email": "employee3@example.com",
+    "email": "e3@e.com",
     "password": "123",
     "taskCounts": {
-      "active": 1,
-      "newTask": 0,
+      "active": 4,
+      "newTask": 1,
       "completed": 1,
       "failed": 0
     },
@@ -99,16 +139,36 @@ const Employees=[
         "newTask": false,
         "completed": true,
         "failed": false
+      },
+      {
+        "taskTitle": "Optimize API Performance",
+        "taskDescription": "Improve API response times for high-traffic endpoints.",
+        "taskDate": "2025-02-28",
+        "category": "Performance",
+        "active": true,
+        "newTask": false,
+        "completed": false,
+        "failed": false
+      },
+      {
+        "taskTitle": "Update Documentation",
+        "taskDescription": "Ensure all API documentation is up-to-date.",
+        "taskDate": "2025-03-01",
+        "category": "Documentation",
+        "active": true,
+        "newTask": false,
+        "completed": false,
+        "failed": false
       }
     ]
   },
   {
     "id": 4,
     "firstName": "Sneha",
-    "email": "employee4@example.com",
+    "email": "e4@e.com",
     "password": "123",
     "taskCounts": {
-      "active": 1,
+      "active": 3,
       "newTask": 1,
       "completed": 1,
       "failed": 0
@@ -133,13 +193,23 @@ const Employees=[
         "newTask": false,
         "completed": true,
         "failed": false
+      },
+      {
+        "taskTitle": "Create Marketing Banners",
+        "taskDescription": "Design new banners for the upcoming campaign.",
+        "taskDate": "2025-03-05",
+        "category": "Marketing",
+        "active": true,
+        "newTask": false,
+        "completed": false,
+        "failed": false
       }
     ]
   },
   {
     "id": 5,
     "firstName": "Vikram",
-    "email": "employee5@example.com",
+    "email": "e5@e.com",
     "password": "123",
     "taskCounts": {
       "active": 1,

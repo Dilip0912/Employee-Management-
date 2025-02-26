@@ -40,10 +40,10 @@ function App() {
     }
   };
 
-  // useEffect(() => {
-  //   setLocalStorage();
-  //   // getLocalStorage();
-  // }, []);
+  useEffect(() => {
+    setLocalStorage();
+    // getLocalStorage();
+  }, []);
 
   return (
     <>

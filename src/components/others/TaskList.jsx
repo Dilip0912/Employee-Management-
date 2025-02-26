@@ -14,23 +14,17 @@ const TaskList = ({ data }) => {
         if (elem.active) {
           return <AcceptTask />;
         }
-      })}
-
-      {data.tasks.map((elem) => {
         if (elem.newTask) {
           return <NewTask />;
         }
-      })}
-      {data.tasks.map((elem) => {
         if (elem.completed) {
           return <CompleteTask />;
         }
-      })}
-      {data.tasks.map((elem) => {
         if (elem.failed) {
           return <FailedTask />;
         }
       })}
+
     </div>
   );
 };
