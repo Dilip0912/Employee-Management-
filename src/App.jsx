@@ -40,18 +40,18 @@ function App() {
     }
   };
 
-  useEffect(() => {
-    setLocalStorage();
-    // getLocalStorage();
-  }, []);
+  // useEffect(() => {
+  //   setLocalStorage();
+  //   // getLocalStorage();
+  // }, []);
 
   return (
     <>
       {!user ? <Login handleLogin={handleLogin} /> : " "}
       {user === "admin" ? (
-        <AdminDashboard />
+        <AdminDashboard setUser={setUser}/>
       ) : user === "employee" ? (
-        <EmployeeDashboard data={loggedInUserData} />
+        <EmployeeDashboard setUser={setUser} data={loggedInUserData} />
       ) : (
         ""
       )}

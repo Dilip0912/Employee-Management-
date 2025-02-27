@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Header = ({data}) => {
+const Header = ({data,setUser}) => {
 
   let username;
   if(!data){
@@ -12,7 +12,7 @@ const Header = ({data}) => {
 
   const logOutUser=()=>{
     localStorage.setItem("loggedInUser","");
-    window.location.reload();
+    setUser("");
   }
   return (
     <div className='flex items-end justify-between'>
